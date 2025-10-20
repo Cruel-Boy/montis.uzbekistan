@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Услуги</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  /* Smooth Page Transition Effect */
+  body {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  body.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Optional smoother background during load (dark) */
+  html {
+    background-color: #0b1020;
+  }
+
+  /* Prevent flash of unstyled content */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+</head>
+<body>
+  <script>
+    // Add fade-in effect when page loads
+    window.addEventListener("DOMContentLoaded", () => {
+      document.body.style.visibility = "visible";
+      setTimeout(() => document.body.classList.add("fade-in"), 50);
+    });
+    
+    // Smooth fade-out when navigating between internal pages
+    document.addEventListener("DOMContentLoaded", () => {
+      const links = document.querySelectorAll("a[href]");
+      links.forEach(link => {
+        const href = link.getAttribute("href");
+        
+        if (href && !href.startsWith("#") && !href.startsWith("http")) {
+          link.addEventListener("click", e => {
+            e.preventDefault();
+            document.body.classList.remove("fade-in");
+            setTimeout(() => window.location = href, 500); // Match the CSS transition duration
+          });
+        }
+      });
+    });
+  </script>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo">🏗️</div>
+      <div class="company-name" data-i18n="company_name">Компания</div>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html" data-i18n="nav.home" class="nav-link">Главная</a>
+      <a href="about.html" data-i18n="nav.about" class="nav-link">О нас</a>
+      <a href="catalog.html" data-i18n="nav.catalog" class="nav-link">Каталог</a>
+      <a href="services.html" data-i18n="nav.services" class="nav-link">Услуги</a>
+    </nav>
+    <div class="lang-switcher">
+      <select id="langSelectServicesOverview">
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+        <option value="uz">UZ</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="market container">
+    <h2 data-i18n="market.title">Маркет</h2>
+    <p class="dash-lead" data-i18n="market.lead">Как работает наш маркет: выберите нужное действие.</p>
+    
+    <div class="market-grid">
+      <a class="market-card" href="#" aria-label="Buy">
+        <div class="market-card-title" data-i18n="market.actions.buy.title">Купить</div>
+        <div class="market-card-desc" data-i18n="market.actions.buy.desc">Найдите оборудование и решения.</div>
+      </a>
+      <a class="market-card" href="#" aria-label="Sell">
+        <div class="market-card-title" data-i18n="market.actions.sell.title">Продать</div>
+        <div class="market-card-desc" data-i18n="market.actions.sell.desc">Разместите свои товары и услуги.</div>
+      </a>
+      <a class="market-card" href="#" aria-label="Auction">
+        <div class="market-card-title" data-i18n="market.actions.auction.title">Аукцион</div>
+        <div class="market-card-desc" data-i18n="market.actions.auction.desc">Участвуйте в торгах и выигрывайте.</div>
+      </a>
+      <a class="market-card" href="#" aria-label="Projectations">
+        <div class="market-card-title" data-i18n="market.actions.projectations.title">Проектации</div>
+        <div class="market-card-desc" data-i18n="market.actions.projectations.desc">Оформите запрос на проект под ключ.</div>
+      </a>
+    </div>
+  </section>
+  <section class="services-hero">
+    <h1 data-i18n="services.title">Услуги</h1>
+    <p data-i18n="services.lead">Мы предлагаем комплексные решения в трех направлениях.</p>
+  </section>
+  
+    <section class="services-blocks container">
+      <a class="service-card-link" href="projects.html">
+        <div class="service-card">
+          <h2 data-i18n="features.projects.title">Проекты под ключ</h2>
+          <p data-i18n="features.projects.text">Полный цикл проектов — от концепта до ввода в эксплуатацию.</p>
+        </div>
+      </a>
+
+      <a class="service-card-link" href="equipment.html">
+        <div class="service-card">
+          <h2 data-i18n="features.equipment.title">Оборудование под ключ</h2>
+          <p data-i18n="features.equipment.text">Поставляем комплектное оборудование и инженерные системы.</p>
+        </div>
+      </a>
+
+      <a class="service-card-link" href="services-list.html">
+        <div class="service-card">
+          <h2 data-i18n="features.services.title">Услуги</h2>
+          <p data-i18n="features.services.text">Сервисное обслуживание, монтаж и пусконаладка.</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="company-name small" data-i18n="company_name">Компания</div>
+      <div class="copyright" data-i18n="footer.rights">Все права защищены.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

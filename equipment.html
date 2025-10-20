@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-i18n="features.equipment.title">Оборудование под ключ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  /* Smooth Page Transition Effect */
+  body {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  body.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Optional smoother background during load (dark) */
+  html {
+    background-color: #0b1020;
+  }
+
+  /* Prevent flash of unstyled content */
+  body {
+    visibility: hidden;
+  }
+</style>
+
+</head>
+<body>
+  <script>
+  // Add fade-in effect when page loads
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.style.visibility = "visible";
+    setTimeout(() => document.body.classList.add("fade-in"), 50);
+  });
+
+  // Smooth fade-out when navigating between internal pages
+  document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll("a[href]");
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+
+      if (href && !href.startsWith("#") && !href.startsWith("http")) {
+        link.addEventListener("click", e => {
+          e.preventDefault();
+          document.body.classList.remove("fade-in");
+          setTimeout(() => window.location = href, 500); // Match the CSS transition duration
+        });
+      }
+    });
+  });
+</script>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><div class="logo">🏗️</div><div class="company-name" data-i18n="company_name">Компания</div></div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" data-i18n="nav.home" class="nav-link">Главная</a>
+        <a href="services.html" data-i18n="nav.services" class="nav-link">Услуги</a>
+      </nav>
+      <div class="lang-switcher">
+        <select id="langSelectEquipment">
+          <option value="ru">RU</option>
+          <option value="en">EN</option>
+          <option value="uz">UZ</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="catalog-hero">
+      <h1 data-i18n="features.equipment.title">Оборудование под ключ</h1>
+      <p data-i18n="equipment.lead">Список оборудования и технологий, которые мы поставляем и монтируем.</p>
+    </section>
+
+    <section class="catalog-grid" id="equipmentGrid">
+      <!-- JS will populate equipment cards from lang.json -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="company-name small" data-i18n="company_name">Компания</div>
+      <div class="copyright" data-i18n="footer.rights">Все права защищены.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
