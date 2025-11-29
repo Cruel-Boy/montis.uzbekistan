@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Проектации</title>
+    <style>
+      /* Smooth Page Transition Effect */
+      body {    
+        opacity: 0;
+        transform: translateY(15px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
+
+      body.fade-in {    
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Optional smoother background during load (dark) */
+      html {    
+        background-color: #0b1020;
+      }
+
+      /* Prevent flash of unstyled content */
+      body {
+        visibility: hidden;
+      }
+    </style>
+</head>
+<body>
+      <script>
+      // Add fade-in effect when page loads
+      window.addEventListener("DOMContentLoaded", () => {
+        document.body.style.visibility = "visible";
+        setTimeout(() => document.body.classList.add("fade-in"), 50);
+      });
+
+      // Smooth fade-out when navigating between internal pages
+      document.addEventListener("DOMContentLoaded", () => {
+        const links = document.querySelectorAll("a[href]");
+        links.forEach(link => {
+          const href = link.getAttribute("href");
+
+          if (href && !href.startsWith("#") && !href.startsWith("http")) {
+            link.addEventListener("click", e => {
+              e.preventDefault();
+              document.body.classList.remove("fade-in");
+              setTimeout(() => window.location = href, 500); // Match the CSS transition duration
+            });
+          }
+        });
+      });
+    </script>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo"></div>
+          <div class="company-name" data-i18n="company_name">Компания</div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" data-i18n="nav.home" class="nav-link">Главная</a>
+          <a href="about.html" data-i18n="nav.about" class="nav-link">О нас</a>
+          <a href="catalog.html" data-i18n="nav.catalog" class="nav-link">Каталог</a>
+          <a href="services.html" data-i18n="nav.services" class="nav-link">Услуги</a>
+        </nav>
+
+        <div class="lang-switcher" aria-label="Language switcher">
+          <select id="langSelect" aria-label="Select language">
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+            <option value="uz">UZ</option>
+          </select>
+        </div>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+  
+
+    <main></main>
+    <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="company-name small" data-i18n="company_name">Montis Uzbekistan</div>
+        <div class="copyright" data-i18n="footer.rights">Все права защищены.</div>
+      </div>
+    </div>
+    <section id="contact" class="contact container">
+      <h2 data-i18n="contact.title">Контакты</h2>
+      <p data-i18n="contact.address">Адрес: г. Ташкент, Улица Пример, 1</p>
+      <p><strong data-i18n="contact.phone_label">Телефон:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      <p><strong data-i18n="contact.email_label">Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+    </section>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

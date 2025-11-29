@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-i18n="company_name"></title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Соединяем производство, технологии и возможности по всему миру -->
+  <style>
+  /* Smooth Page Transition Effect */
+  body {
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  body.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Optional smoother background during load (dark) */
+  html {
+    background-color: #0b1020;
+  }
+
+  /* Prevent flash of unstyled content */
+  body {
+    visibility: hidden;
+  }
+</style>
+</head>
+<body>
+  <script>
+  // Add fade-in effect when page loads
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.style.visibility = "visible";
+    setTimeout(() => document.body.classList.add("fade-in"), 50);
+  });
+
+  // Smooth fade-out when navigating between internal pages
+  document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll("a[href]");
+    links.forEach(link => {
+      const href = link.getAttribute("href");
+
+      if (href && !href.startsWith("#") && !href.startsWith("http")) {
+        link.addEventListener("click", e => {
+          e.preventDefault();
+          document.body.classList.remove("fade-in");
+          setTimeout(() => window.location = href, 500); // Match the CSS transition duration
+        });
+      }
+    });
+  });
+</script>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo"></div>
+        <div class="company-name" data-i18n="company_name"></div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" data-i18n="nav.home" class="nav-link"></a>
+        <a href="about.html" data-i18n="nav.about" class="nav-link"></a>
+        <a href="catalog.html" data-i18n="nav.catalog" class="nav-link"></a>
+        <a href="services.html" data-i18n="nav.services" class="nav-link"></a>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Language switcher">
+        <select id="langSelect" aria-label="Select language">
+          <option value="ru">RU</option>
+          <option value="en">EN</option>
+          <option value="uz">UZ</option>
+        </select>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 data-i18n="hero.title"></h1>
+          <p data-i18n="hero.subtitle"></p>
+          <div class="hero-cta">
+            <a href="about.html" class="btn" data-i18n="hero.learn_more"></a>
+            <a href="services.html" class="btn btn-outline" data-i18n="hero.view_services"></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <h2 data-i18n="hero.tenderh1"></h2>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.parnik"></h3>
+            <span data-i18n="hero-visual.parnik-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.electrical-generators"></h3>
+            <span data-i18n="hero-visual.electrical-generators-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.water"></h3>
+            <span data-i18n="hero-visual.water-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.freezer"></h3>
+            <span data-i18n="hero-visual.freezer-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.truck"></h3>
+            <span data-i18n="hero-visual.truck-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.energy-transfer"></h3>
+            <span data-i18n="hero-visual.energy-transfer-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.beton"></h3>
+            <span data-i18n="hero-visual.beton-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.metal"></h3>
+            <span data-i18n="hero-visual.metal-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.auto"></h3>
+            <span data-i18n="hero-visual.auto-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.infection"></h3>
+            <span data-i18n="hero-visual.infection-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.fireman"></h3>
+            <span data-i18n="hero-visual.fireman-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.cow"></h3>
+            <span data-i18n="hero-visual.cow-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.garden"></h3>
+            <span data-i18n="hero-visual.garden-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.watering"></h3>
+            <span data-i18n="hero-visual.watering-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.repairing"></h3>
+            <span data-i18n="hero-visual.repairing-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.medic"></h3>
+            <span data-i18n="hero-visual.medic-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.myasa"></h3>
+            <span data-i18n="hero-visual.myasa-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.milk"></h3>
+            <span data-i18n="hero-visual.milk-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.door"></h3>
+            <span data-i18n="hero-visual.door-txt"></span>
+          </div>
+          <div class="tender-cart">
+            <h3 data-i18n="hero-visual.plumbing"></h3>
+            <span data-i18n="hero-visual.plumbing-txt"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+    <section class="features container">
+      <article class="feature-card">
+        <h3 data-i18n="features.projects.title"></h3>
+        <p data-i18n="features.projects.text"></p>
+        <a class="btn btn-small" href="projects.html" data-i18n="features.projects.link"></a>
+      </article>
+
+      <article class="feature-card">
+        <h3 data-i18n="features.equipment.title"></h3>
+        <p data-i18n="features.equipment.text"></p>
+        <a class="btn btn-small" href="equipment.html" data-i18n="features.equipment.link"></a>
+      </article>
+
+      <article class="feature-card">
+        <h3 data-i18n="features.services.title"></h3>
+        <p data-i18n="features.services.text"></p>
+        <a class="btn btn-small" href="services-list.html" data-i18n="features.services.link"></a>
+      </article>
+    </section>
+
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="company-name small" data-i18n="company_name">Montis Uzbekistan</div>
+        <div class="copyright" data-i18n="footer.rights">Все права защищены.</div>
+      </div>
+    </div>
+    <section id="contact" class="contact container">
+      <h2 data-i18n="contact.title">Контакты</h2>
+      <p data-i18n="contact.address">Адрес: г. Ташкент, Улица Пример, 1</p>
+      <p><strong data-i18n="contact.phone_label">Телефон:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      <p><strong data-i18n="contact.email_label">Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+    </section>
+  </footer>
+
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title" data-i18n="company_name">Компания</div>
+      <button class="hamburger" id="drawerClose" aria-label="Close menu">✕</button>
+    </div>
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Главная</a>
+      <a href="about.html" data-i18n="nav.about">О нас</a>
+      <a href="catalog.html" data-i18n="nav.catalog">Каталог</a>
+      <a href="services.html" data-i18n="nav.services">Услуги</a>
+    </nav>
+    <div class="drawer-footer">
+      <select id="langSelectDrawer" aria-label="Select language">
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+        <option value="uz">UZ</option>
+      </select>
+    </div>
+  </aside>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" integrity="sha384-6Z3bVq2n8m1pHw2KX9sBsxKxZpLwP7P6p5n8WwqkZm9oQqzQm5Uj9k9QWZ0KkGqP" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

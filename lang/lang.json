@@ -1,0 +1,805 @@
+{
+  "ru": {
+    "market_highlights": {
+      "title": "Маркет: актуальные аукционы и предложения",
+      "view_all": "Смотреть всё",
+      "auctions": "Аукционы",
+      "offers": "Предложения",
+      "targets": "Запросы клиентов"
+    },
+    "market": {
+      "title": "Маркет",
+      "lead": "Как работает наш маркет: выберите нужное действие.",
+      "actions": {
+        "buy": {"title": "Купить", "desc": "Найдите оборудование и решения."},
+        "sell": {"title": "Продать", "desc": "Разместите свои товары и услуги."},
+        "auction": {"title": "Аукцион", "desc": "Участвуйте в торгах и выигрывайте."},
+        "projectations": {"title": "Проектации", "desc": "Оформите запрос на проект под ключ."}
+      }
+    },
+    "dashboard": {
+      "title": "Панель показателей",
+      "lead": "Ключевые метрики компании и динамика продаж."
+    },
+    "kpis": {
+      "revenue": "Выручка",
+      "orders": "Заказы",
+      "clients": "Клиенты",
+      "conversion": "Конверсия"
+    },
+    "charts": {
+      "sales_trend": "Динамика продаж",
+      "category_breakdown": "Структура продаж по категориям"
+    },
+    "months": {"jan":"Янв","feb":"Фев","mar":"Мар","apr":"Апр","may":"Май","jun":"Июн","jul":"Июл","aug":"Авг","sep":"Сен","oct":"Окт","nov":"Ноя","dec":"Дек"},
+    "company_name": "Montis Uzbekistan",
+    "nav": {
+      "home": "Главная",
+      "about": "О нас",
+      "catalog": "Каталог",
+      "services": "Услуги",
+      "contact": "Контакты"
+    },
+    "hero": {
+      "title": "Добро пожаловать в Montis Uzbekistan",
+      "subtitle": "Мы реализуем проекты под ключ: от идеи до запуска.",
+      "learn_more": "Узнать больше",
+      "tenderh1": "Проведенные тендеры и их результаты в 2024-2025 гг.",
+      "view_services": "Наши услуги"
+    },
+    "hero-visual": {      
+      "plumbing": "Бытовая сантехника",
+      "plumbing-txt": "18 Тендеров | $420,000.00",
+      "beton": "Железобетонные изделия для строительства здания",
+      "beton-txt": "105 Тендеров | $55,415,225.00",
+      "metal": "Легкие металлические конструкции",
+      "metal-txt": "Тендеров 36 | $8,254,899.00",
+      "auto": "Автоматизация-системы и механизмы",
+      "auto-txt": "Тендеров 254 | $3,688,871.00",
+      "water": "Оборудование для очистки воды",
+      "water-txt": "Тендеров 17 | $2,455,580.00",
+      "infection": "Оборудование для дезинфекции, обеззараживания и дератизации",
+      "infection-txt": "Тендеров 28 | $488,000.00",
+      "fireman": "Оборудование для обеспечения пожарной безопасности",
+      "fireman-txt": "Тендеров 15 | $960,000.00",
+      "cow":"Оборудование и инвентарь для животноводства",
+      "cow-txt": "Тендеров 27 | $1,850,000.00",
+      "garden":"Садоводство и овощеводство-техника и оборудование",
+      "garden-txt": "Тендеров 58 | $24,400,210.00",
+      "watering":"Искусственное орошение и ирригационные системы",
+      "watering-txt": "Тендеров 12 | $985,000.00",
+      "repairing": "Складское оборудование и системы",
+      "repairing-txt": "Тендеров 23 | $1,700,000.00",
+      "freezer": "Холодильные камеры",
+      "freezer-txt": "Тендеров 18 | $14,205,000.00",
+      "truck": "Грузовики, фургоны и коммерческие транспортные средства",
+      "truck-txt": "Тендеров 18 | $12,508,000.00",
+      "parnik": "Оранжереи и парники",
+      "parnik-txt": "Тендеров 18 | $12,508,000.00",
+      "milk": "Машины и оборудование для молочной и сырной промышленности",
+      "milk-txt": "Тендеров 7 | $850,000.00",
+      "myasa":"Мясная и колбасная промышленность-машины и оборудование",
+      "myasa-txt": "Тендеров 5 | $745,000.00",
+      "temp-control": "Оборудование и инструменты для измерения и контроля температуры",
+      "temp-control-txt": "Тендеров 4 | $4,200,000.00",
+      "medic": "Медицина и хирургия -предметы и расходные материалы",
+      "medic-txt": "Тендеров 26 | $5,750,000.00",
+      "door": "Автоматические двери и ворота, системы контроля доступа",
+      "door-txt": "Тендеров 26 | $5,750,000.00",
+      "energy-transfer": "Электроснабжение-оборудование для распределения и передачи электроэнергии",
+      "energy-transfer-txt": "Тендеров 58 | $34,528,000.00",
+      "electrical-generators": "Электрические генераторы",
+      "electrical-generators-txt": "Тендеров 28 | $5,750,020.00"
+    },
+    
+  "about": {
+    "title": "О нас",
+    "paragraphs1": "Montis Uzbekistan — международная торгово-инжиниринговая компания, специализирующаяся на импорте, экспорте и комплексных поставках производственного оборудования и технологических линий для предприятий разных отраслей." ,
+    "paragraphs2": "Мы выступаем надёжным посредником между бизнес-лидерами, инвесторами и заводами-производителями, соединяя потребности клиентов с возможностями ведущих производителей со всего мира." ,
+    "paragraphs3": "Мы предлагаем полный спектр услуг — от анализа задач и подбора оборудования до организации поставок, монтажа и запуска производственных линий «под ключ». Наша команда обеспечивает высокий уровень сервиса, оперативность и прозрачность на каждом этапе сотрудничества."
+  },
+  "mission": {
+    "title": "Миссия",
+    "paragraphs1": "Наша миссия — помогать компаниям по всему миру развивать производство, внедрять современные технологии и повышать эффективность бизнеса.",
+    "paragraphs2": "Мы стремимся быть надёжным партнёром, который не просто поставляет оборудование, а предлагает комплексные решения, способствующие росту и конкурентоспособности наших клиентов.",
+    "paragraphs3": "Montis Uzbekistan объединяет производителей и бизнес, создавая прочные партнёрские связи, основанные на доверии, профессионализме и взаимной выгоде."
+  },
+  "experience": {
+    "title": "Опыт",
+    "paragraphs1": "За годы работы мы накопили обширный опыт в реализации проектов различного масштаба — от отдельных производственных установок до крупных интегрированных линий и заводских комплексов.",
+    "paragraphs2":"Наша команда сотрудничает с проверенными производителями и поставщиками оборудования из Европы, Азии и других регионов, что позволяет предлагать клиентам оптимальные решения по соотношению цена–качество.",
+    "paragraphs3":"Мы успешно работаем с предприятиями пищевой, упаковочной, строительной, химической, металлургической, сельскохозяйственной и других отраслей промышленности."
+  },
+  "values": {
+    "title": "Ценности",
+    "list": {
+      "reliability": "Надёжность и доверие — долгосрочные отношения с партнёрами основаны на честности, ответственности и прозрачности.",
+      "professionalism": "Профессионализм — мы ценим компетентность, опыт и качество во всём, что делаем.",
+      "individual": "Индивидуальный подход — каждая задача уникальна, и мы разрабатываем решения, которые точно соответствуют потребностям клиента.",
+      "innovation": "Инновации и развитие — мы постоянно следим за новыми технологиями и внедряем современные решения для повышения эффективности производства.",
+      "partnership": "Партнёрство и результат — успех наших клиентов — это наш главный показатель качества работы."
+    }
+  },
+
+
+    "features": {
+      "projects": { "title": "Проекты под ключ", "text": "Полный цикл проектов — от концепта до ввода в эксплуатацию.", "link": "Подробнее" },
+      "equipment": { "title": "Оборудование под ключ", "text": "Поставляем комплектное оборудование и инженерные системы.", "link": "Подробнее" },
+      "services": { "title": "Услуги", "text": "Сервисное обслуживание, монтаж и пусконаладка.", "link": "Подробнее" }
+    },
+    "contact": {
+      "title": "Контакты",
+      "address": "Адрес: г. Ташкент, Улица Буюк Ипак Йули, 2",
+      "phone_label": "Телефон:",
+      "email_label": "Email:"
+    },
+    "footer": {
+      "rights": "Все права защищены."
+    },
+    "catalog": {
+      "title": "Каталог продукции",
+      "lead": "Выберите категорию оборудования или продукта, чтобы увидеть подробности.",
+      "items": [
+        { "title": "Сельхозоборудование", "desc": "Оборудование для ферм и сельского хозяйства." },
+        { "title": "Производственные линии", "desc": "Комплектные линии для малого и среднего производства." },
+        { "title": "Инженерные системы", "desc": "Системы водоснабжения, отопления и вентиляции." }
+      ]
+    },
+    "services": {
+      "title": "Услуги",
+      "lead": "Мы предлагаем комплексные решения в трех направлениях."
+    },
+    "projects": {
+      "lead": "Ниже перечислены проекты, которые мы реализуем под ключ. Нажмите на карточку для подробностей."
+    },
+    "equipment": {
+      "lead": "Список оборудования и технологий, которые мы поставляем и монтируем."
+    },
+    "services_blocks": {
+      "projects": [
+        "Фермы по разведению сельскохозяйственных животных — под ключ",
+        "Рыбоводческие фермы — под ключ",
+        "Фермы садоводства и овощеводства — под ключ",
+        "Комплексы по выращиванию рассады в горшках — под ключ",
+        "Проекты по переработке иловых отложений — под ключ",
+        "Комплексы по переработке лечебных грязей — под ключ",
+        "Текстильные производственные комплексы — под ключ", 
+        "Производство удобрений и средств мелиорации почв — под ключ",
+        "Комплексы для шелководства — под ключ",
+        "Сыродельные производства — под ключ",
+        "Линии по производству джемов и пастилы — под ключ",
+        "Линии по производству галет и печенья — под ключ",
+        "Линии диетических и натуральных продуктов — под ключ",
+        "Мясоперерабатывающие комплексы и колбасные цеха — под ключ",
+        "Производство кормов для сельскохозяйственных животных — под ключ",
+        "Линии газированных безалкогольных напитков — под ключ",
+        "Сахарные заводы — под ключ",
+        "Производство кофе и чая — под ключ",
+        "Макаронные производства — под ключ",
+        "Производство пищевых масел — под ключ",
+        "Линии розлива минеральной воды — под ключ",
+        "Молочные заводы — под ключ",
+        "Мукомольные заводы — под ключ",
+        "Производство фруктовых и овощных соков — под ключ",
+        "Производство мясной продукции и колбас — под ключ",
+        "Металлоконструкции и погрузочная техника — под ключ",
+        "Железобетонные изделия для строительства — под ключ",
+        "Легкие металлические конструкции — под ключ",
+        "Строительство производственных зданий — под ключ",
+        "Тепличные комплексы — под ключ", 
+        "Переработка отходов и рециклинг — под ключ",
+        "Производство ветеринарных препаратов — под ключ",
+        "Химическая и фармацевтическая продукция — под ключ",
+        "Производство оконных конструкций — под ключ", 
+        "Цементные заводы — под ключ",
+        "Лабораторные комплексы — под ключ",
+        "Производство бумаги и картона — под ключ",
+        "Ткацкие и прядильные производства — под ключ",
+        "Эластичные нити и ткани — производство под ключ"
+      ],
+      "equipment": [
+        "Бытовая сантехника",
+        "Производственная сантехника",
+        "Железобетонные изделия для строительства зданий",
+        "Легкие металлические конструкции",
+        "Автоматика-системы и механизмы",
+        "Оборудование для водоподготовки",
+        "Оборудование для дезинфекции, обеззараживания и дератизации",
+        "Оборудование для пожарной безопасности",
+        "Животноводческое оборудование и инвентарь",
+        "Садоводство и огородничество - техника и оборудование",
+        "Сварка и упрочнение-оборудование и материалы",
+        "Сельскохозяйственные системы и оборудование",
+        "Искусственное орошение и ирригационные системы",
+        "Складское оборудование и системы",
+        "Бытовые отопительные приборы и системы",
+        "Холодильные камеры",
+        "Системы и оборудование для кондиционирования воздуха",
+        "Теплицы и парниковые зоны",
+        "Грузовые самоходные тележки (телейки)" ,
+        "Оборудование для производства обложек",
+        "Приборы и оборудование для молочной и сырной промышленности",
+        "Машины и оборудование для мясной и колбасной промышленности",
+        "Оборудование для производства пластмасс",
+        "Переработка отходов - технологии и оборудование",
+        "Грузовые автомобили, фургоны и коммерческие транспортные средства",
+        "Контейнеры",
+        "Автоприцепы и полуприцепы для перевозки грузов",
+        "Технологии производства ветеринарных препаратов",
+        "Оборудование и приборы для измерения и контроля температуры",
+        "Системы и оборудование сигнализации и безопасности",
+        "Медицинские и хирургические инструменты",
+        "Медицина и хирургия -предметы и расходные материалы",
+        "Электронная обработка данных - программное обеспечение (DT)",
+        "Электронная обработка данных - микрокомпьютеры",
+        "Электронная обработка данных -компьютерное периферийное оборудование",
+        "Магнитные носители информации и устройства хранения",
+        "Автоматические двери и ворота, системы контроля доступа",
+        "Электроснабжение - оборудование для распределения и передачи",
+        "Электрогенераторы",
+        "Оборудование для солнечной энергетики (гелиоэнергетическое оборудование)"
+      ],
+      "services": [
+        "Перевозка грузов воздушным транспортом (авиатранспорт)",
+        "Перевозка сыпучих габаритных грузов",
+        "Перевозка животных",
+        "Железнодорожный транспорт",
+        "Сбор и отправка грузов-экспедиторские услуги",
+        "Перевозка рефрижераторным транспортом",
+        "Склады и таможенные склады",
+        "Транспортировка морским и речным транспортом",
+        "Организация ярмарок, выставок",
+        "Маркетинговые исследования",
+        "Международные информационные агентства",
+        "Мультимедиа-Интернет и интранет-сервисы",
+        "Маркетинг по телефону",
+        "Коммерческая реклама",
+        "Сельскохозяйственные услуги",
+        "Инженерно-производственные подрядчики",
+        "Защита патентов и товарных знаков",
+        "Услуги по охране и безопасности",
+        "Торгово-промышленные палаты",
+        "Строительство и производственный контроль",
+        "Исследовательские центры и лаборатории",
+        "Энергетика и сырье -промышленный сервис",
+        "Юридический консалтинг",
+        "Центры документации и информации"
+      ]
+    }
+  },
+
+  "en": {
+    "market_highlights": {
+      "title": "Market: current auctions and offers",
+      "view_all": "View all",
+      "auctions": "Auctions",
+      "offers": "Offers",
+      "targets": "Customer requests"
+    },
+    "market": {
+      "title": "Market",
+      "lead": "How our market works: pick an action.",
+      "actions": {
+        "buy": {"title": "Buy", "desc": "Find equipment and solutions."},
+        "sell": {"title": "Sell", "desc": "List your products and services."},
+        "auction": {"title": "Auction", "desc": "Join auctions and win deals."},
+        "projectations": {"title": "Projectations", "desc": "Request a turnkey project."}
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "lead": "Company KPIs and sales trends."
+    },
+    "kpis": {
+      "revenue": "Revenue",
+      "orders": "Orders",
+      "clients": "Clients",
+      "conversion": "Conversion"
+    },
+    "charts": {
+      "sales_trend": "Sales trend",
+      "category_breakdown": "Sales by category"
+    },
+    "months": {"jan":"Jan","feb":"Feb","mar":"Mar","apr":"Apr","may":"May","jun":"Jun","jul":"Jul","aug":"Aug","sep":"Sep","oct":"Oct","nov":"Nov","dec":"Dec"},
+    "company_name": "Montis Uzbekistan",
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "catalog": "Catalog",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Welcome to Montis Uzbekistan",
+      "subtitle": "We deliver turnkey solutions — from idea to commissioning.",
+      "learn_more": "Learn more",
+      "tenderh1": "Tenders held and their results in 2024-2025",
+      "view_services": "Our services"
+    },
+    "hero-visual": {      
+      "plumbing": "Household plumbing",
+      "plumbing-txt": "18 Tenders | $420,000.00",
+      "beton": "Reinforced concrete products for building construction",
+      "beton-txt": "105 Tenders | $55,415,225.00",
+      "metal": "Lightweight metal structures",
+      "metal-txt": "Tenders 36 | $8,254,899.00",
+      "auto": "Automation-systems and mechanisms",
+      "auto-txt": "Tenders 254 | $3,688,871.00",
+      "water": "Water purification equipment",
+      "water-txt": "Tenders 17 | $2,455,580.00",
+      "infection": "Disinfection, disinfection and deratization equipment",
+      "infection-txt": "Tenders 28 | $488,000.00",
+      "fireman": "Fire safety equipment",
+      "fireman-txt": "Tenders 15 | $960,000.00",
+      "cow":"Equipment and implements for animal husbandry",
+      "cow-txt": "Tenders 27 | $1,850,000.00",
+      "garden":"Gardening and vegetable growing-machinery and equipment",
+      "garden-txt": "Tenders 58 | $24,400,210.00",
+      "watering":"Artificial irrigation and irrigation systems",
+      "watering-txt": "Tenders 12 | $985,000.00",
+      "repairing": "Warehouse equipment and systems",
+      "repairing-txt": "Tenders 23 | $1,700,000.00",
+      "freezer": "Cold storage rooms",
+      "freezer-txt": "Tenders 18 | $14,205,000.00",
+      "truck": "Trucks, vans, and commercial vehicles",
+      "truck-txt": "Tenders 18 | $12,508,000.00",
+      "parnik": "Greenhouses and greenhouses",
+      "parnik-txt": "Tenders 18 | $12,508,000.00",
+      "milk": "Machinery and equipment for the dairy and cheese industry",
+      "milk-txt": "Tenders 7 | $850,000.00",
+      "myasa":"Meat and sausage industry-machinery and equipment",
+      "myasa-txt": "Tenders 5 | $745,000.00",
+      "temp-control": "Equipment and tools for temperature measurement and control",
+      "temp-control-txt": "Tenders 4 | $4,200,000.00",
+      "medic": "Medicine and Surgery -items and supplies",
+      "medic-txt": "Tenders 26 | $5,750,000.00",
+      "door": "Automatic doors and gates, access control systems",
+      "door-txt": "Tenders 26 | $5,750,000.00",
+      "energy-transfer": "Electric power supply-equipment for distribution and transmission of electric power",
+      "energy-transfer-txt": "Tenders 58 | $34,528,000.00",
+      "electrical-generators": "Electric generators",
+      "electrical-generators-txt": "Tenders 28 | $5,750,020.00"
+    },
+    "about": {
+      "title": "About Us",
+      "paragraphs1": "Montis Uzbekistan — an international trade and engineering company specializing in the import, export and integrated supply of production equipment and production lines for enterprises of various industries." ,
+      "paragraphs2": "We act as a reliable intermediary between business leaders, investors and manufacturing plants, connecting the needs of customers with the capabilities of leading manufacturers from around the world." ,
+      "paragraphs3": "We offer a full range of services, from task analysis and equipment selection to organization of supplies, installation and launch of turnkey production lines. Our team provides a high level of service, efficiency and transparency at every stage of cooperation."
+    },
+    "mission": {
+      "title": "Mission",
+      "paragraphs1": "Our mission is to help companies around the world develop production, introduce modern technologies and improve business efficiency.",
+      "paragraphs2": "We strive to be a reliable partner who does not just supply equipment, but offers comprehensive solutions that contribute to the growth and competitiveness of our customers.",
+      "paragraphs3": "Montis Uzbekistan unites manufacturers and businesses, creating strong partnerships based on trust, professionalism and mutual benefit."
+    },
+    "experience": {
+      "title": "Experience",
+      "paragraphs1": "Over the years, we have accumulated extensive experience in implementing projects of various scales, from individual production plants to large integrated lines and factory complexes.",
+      "paragraphs2":"Our team cooperates with trusted manufacturers and suppliers of equipment from Europe, Asia and other regions, which allows us to offer customers optimal solutions in terms of price–quality ratio.",
+      "paragraphs3":"We successfully work with companies in the food, packaging, construction, chemical, metallurgical, agricultural and other industries."
+    },
+    "values": {
+      "title": "Values",
+      "list": {
+        "reliability": "Reliability and trust — long-term relationships with partners are based on honesty, responsibility and transparency.",
+        "professionalism": "Professionalism — we value competence, experience and quality in everything we do.",
+        "individual": "Individual approach — each task is unique, and we develop solutions that precisely meet the needs of the client.",
+        "innovation": "Innovation and development — we are constantly monitoring new technologies and implementing modern solutions to improve production efficiency.",
+        "partnership": "Partnership and the result — the success of our clients — is our main indicator of the quality of work."
+      }
+    },
+    "features": {
+      "projects": { "title": "Turnkey Projects", "text": "Full-cycle projects — from concept to commissioning.", "link": "More" },
+      "equipment": { "title": "Turnkey Equipment", "text": "We supply complete equipment and engineering systems.", "link": "More" },
+      "services": { "title": "Services", "text": "Service, installation and commissioning.", "link": "More" }
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Address: Tashkent, Example Street, 1",
+      "phone_label": "Phone:",
+      "email_label": "Email:"
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "powered": "Website by company"
+    },
+    "catalog": {
+      "title": "Product catalog",
+      "lead": "Choose an equipment category to see details.",
+      "items": [
+        { "title": "Agricultural Equipment", "desc": "Equipment for farms and agricultural production." },
+        { "title": "Production Lines", "desc": "Turnkey lines for small and medium manufacturers." },
+        { "title": "Engineering Systems", "desc": "Water, heating and ventilation systems." }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "lead": "We provide comprehensive solutions in three directions."
+    },
+    "projects": {
+      "lead": "Below are turnkey projects we deliver. Click a card for details."
+    },
+    "equipment": {
+      "lead": "A list of equipment and technologies we supply and install."
+    },
+    "services_blocks": {
+      "projects": [
+        "Livestock farms — turnkey",
+        "Fish farms — turnkey",
+        "Horticulture and vegetable farms — turnkey",
+        "Seedling growing complexes — turnkey",
+        "Sludge processing projects — turnkey",
+        "Therapeutic mud processing complexes — turnkey",
+        "Textile production complexes — turnkey",
+        "Fertilizer and soil reclamation products — turnkey",
+        "Sericulture complexes — turnkey",
+        "Cheese production — turnkey",
+        "Jam and fruit paste production — turnkey",
+        "Biscuit and cookie production — turnkey",
+        "Dietary and natural products — turnkey",
+        "Meat processing and sausage production — turnkey",
+        "Animal feed production — turnkey",
+        "Carbonated soft drink lines — turnkey",
+        "Sugar plants — turnkey",
+        "Coffee and tea production — turnkey",
+        "Pasta production — turnkey",
+        "Edible oil production — turnkey",
+        "Mineral water bottling lines — turnkey",
+        "Dairy plants — turnkey",
+        "Flour mills — turnkey",
+        "Fruit and vegetable juice production — turnkey",
+        "Meat and sausage products — turnkey",
+        "Metal structures and loaders — turnkey",
+        "Reinforced concrete products for construction — turnkey",
+        "Light metal structures — turnkey",
+        "Construction of industrial buildings — turnkey",
+        "Greenhouse complexes — turnkey",
+        "Waste recycling and reuse — turnkey",
+        "Veterinary drug production — turnkey",
+        "Chemical and pharmaceutical products — turnkey",
+        "Window production — turnkey",
+        "Cement plants — turnkey",
+        "Laboratory complexes — turnkey",
+        "Paper and cardboard production — turnkey",
+        "Weaving and spinning production — turnkey",
+        "Elastic yarns and fabrics production — turnkey"
+      ],
+      "equipment": [
+        "Household plumbing",
+        "Industrial plumbing",
+        "Reinforced concrete products for building construction",
+        "Light metal structures",
+        "Automation-systems and mechanisms",
+        "Water treatment equipment",
+        "Disinfection, disinfection and deratization equipment",
+        "Fire safety equipment",
+        "Livestock equipment and inventory",
+        "Gardening and horticulture - machinery and equipment",
+        "Welding and hardening-equipment and materials",
+        "Agricultural systems and equipment",
+        "Artificial irrigation and irrigation systems",
+        "Storage equipment and systems",
+        "Household heating devices and systems",
+        "Refrigerating chambers",
+        "Systems and equipment for air conditioning",
+        "Greenhouses and greenhouse zones",
+        "Self-propelled trucks",
+        "Equipment for the production of covers",
+        "Appliances and equipment for the dairy and cheese industry",
+        "Machinery and equipment for the meat and sausage industry",
+        "Plastics production equipment",
+        "Waste recycling - technologies and equipment",
+        "Trucks, vans and commercial vehicles",
+        "Containers",
+        "Trailers and semi-trailers for cargo transportation",
+        "Veterinary drug production technologies",
+        "Equipment and devices for temperature measurement and control",
+        "Alarm and safety systems and equipment",
+        "Medical and surgical instruments",
+        "Medicine and surgery - items and consumables",
+        "Electronic Data Processing - Software (DT)",
+        "Electronic data processing - microcomputers",
+        "Electronic data processing - computer peripheral equipment",
+        "Magnetic media and storage devices",
+        "Automatic doors and gates, access control systems",
+        "Power supply - equipment for distribution and transmission",
+        "Electric generators",
+        "Equipment for solar energy (solar energy equipment)"
+      ],
+      "services": [
+        "Transportation of goods by air (air transport)",
+        "Transportation of bulk bulk goods",
+        "Transportation of animals",
+        "Railway transport",
+        "Cargo collection and dispatch-forwarding services",
+        "Refrigerated transportation",
+        "Warehouses and customs warehouses",
+        "Transportation by sea and river transport",
+        "Organization of fairs, exhibitions",
+        "Marketing research",
+        "International news agencies",
+        "Multimedia Internet and Intranet services",
+        "Telephone marketing",
+        "Commercial Advertising",
+        "Agricultural Services",
+        "Engineering and Manufacturing Contractors",
+        "Patent and Trademark Protection",
+        "Security and Safety Services",
+        "Chambers of Commerce and Industry",
+        "Construction and Production Control",
+        "Research Centers and Laboratories",
+        "Energy and Raw Materials -Industrial service",
+        "Legal consulting",
+         "Documentation and Information Centers"
+      ]
+    }
+  },
+
+  "uz": {
+    "market_highlights": {
+      "title": "Market: joriy auksionlar va takliflar",
+      "view_all": "Hammasini ko‘rish",
+      "auctions": "Auksionlar",
+      "offers": "Takliflar",
+      "targets": "Mijoz so‘rovlari"
+    },
+    "market": {
+      "title": "Market",
+      "lead": "Market qanday ishlaydi: kerakli amalni tanlang.",
+      "actions": {
+        "buy": {"title": "Sotib olish", "desc": "Uskunalar va yechimlarni toping."},
+        "sell": {"title": "Sotish", "desc": "Mahsulot va xizmatlaringizni joylashtiring."},
+        "auction": {"title": "Auksion", "desc": "Savdolarda ishtirok eting va yuting."},
+        "projectations": {"title": "Proyektatsiya", "desc": "To‘liq tayyor loyiha so‘rovini yuboring."}
+      }
+    },
+    "dashboard": {
+      "title": "KPI paneli",
+      "lead": "Kompaniya ko‘rsatkichlari va savdo dinamikasi."
+    },
+    "kpis": {
+      "revenue": "Daromad",
+      "orders": "Buyurtmalar",
+      "clients": "Mijozlar",
+      "conversion": "Konversiya"
+    },
+    "charts": {
+      "sales_trend": "Savdo dinamikasi",
+      "category_breakdown": "Toifalar bo‘yicha savdo"
+    },
+    "months": {"jan":"Yan","feb":"Fev","mar":"Mar","apr":"Apr","may":"May","jun":"Iyun","jul":"Iyul","aug":"Avg","sep":"Sen","oct":"Okt","nov":"Noy","dec":"Dek"},
+    "company_name": "Montis Uzbekistan",
+    "nav": {
+      "home": "Asosiy",
+      "about": "Biz haqimizda",
+      "catalog": "Katalog",
+      "services": "Xizmatlar",
+      "contact": "Aloqa"
+    },
+    "hero": {
+      "title": "Montis Uzbekistanga xush kelibsiz",
+      "subtitle": "Biz tayyor loyiha yechimlarini taqdim etamiz — g'oyadan ishga tushirishgacha.",
+      "learn_more": "Batafsil",
+      "tenderh1": "2024-2025 yillarda o'tkazilgan tenderlar va ularning natijalari",
+      "view_services": "Xizmatlarimiz"
+    },
+    "hero-visual": {      
+      "plumbing": "Maishiy santexnika",
+      "plumbing-txt": "18 Tenderlar soni | $420,000.00",
+      "beton": "Bino qurish uchun temir-beton buyumlar",
+      "beton-txt": "105 Tenderlar soni | $55,415,225.00",
+      "metal": "Yengil metall konstruktsiyalar",
+      "metal-txt": "Tenderlar soni 36 | $8,254,899.00",
+      "auto": "Avtomatlashtirish-tizimlar va mexanizmlar",
+      "auto-txt": "Tenderlar soni 254 | $3,688,871.00",
+      "water": "Suvni tozalash uskunalari",
+      "water-txt": "Tenderlar soni 17 | $2,455,580.00",
+      "infection": "Dezinfektsiya, dezinfektsiya va deratizatsiya uskunalari",
+      "infection-txt": "Tenderlar soni 28 | $488,000.00",
+      "fireman": "Yong'in xavfsizligi uskunalari",
+      "fireman-txt": "Tenderlar soni 15 | $960,000.00",
+      "cow":"Chorvachilik uskunalari va jihozlari",
+      "cow-txt": "Tenderlar soni 27 | $1,850,000.00",
+      "garden":"Bog'dorchilik va sabzavotchilik - texnika va uskunalar",
+      "garden-txt": "Tenderlar soni 58 | $24,400,210.00",
+      "watering":"Sun'iy sug'orish va sug'orish tizimlari",
+      "watering-txt": "Tenderlar soni 12 | $985,000.00",
+      "repairing": "Ombor uskunalari va tizimlari",
+      "repairing-txt": "Tenderlar soni 23 | $1,700,000.00",
+      "freezer": "Sovutish kameralar",
+      "freezer-txt": "Tenderlar soni 18 | $14,205,000.00",
+      "truck": "Yuk mashinalari, furgonlar va tijorat transport vositalari",
+      "truck-txt": "Tenderlar soni 18 | $12,508,000.00",
+      "parnik": "Issiqxonalar va issiqxonalar",
+      "parnik-txt": "Tenderlar soni 18 | $12,508,000.00",
+      "milk": "Sut va pishloq sanoati uchun mashinalar va uskunalar",
+      "milk-txt": "Tenderlar soni 7 | $850,000.00",
+      "myasa":"Go'sht va kolbasa sanoati - mashinalar va uskunalar",
+      "myasa-txt": "Tenderlar soni 5 | $745,000.00",
+      "temp-control": "Go'sht va kolbasa sanoati - mashinalar va uskunalar",
+      "temp-control-txt": "Tenderlar soni 4 | $4,200,000.00",
+      "medic": "Tibbiyot va jarrohlik - buyumlar va materiallar",
+      "medic-txt": "Tenderlar soni 26 | $5,750,000.00",
+      "door": "Avtomatik eshiklar va eshiklar, kirishni boshqarish tizimlari",
+      "door-txt": "Tenderlar soni 26 | $5,750,000.00",
+      "energy-transfer": "Elektr ta'minoti - elektr energiyasini taqsimlash va uzatish uchun uskunalar",
+      "energy-transfer-txt": "Tenderlar soni 58 | $34,528,000.00",
+      "electrical-generators": "Elektr generatorlari",
+      "electrical-generators-txt": "Tenderlar soni 28 | $5,750,020.00"
+    },
+
+    "about": {
+      "title": "Biz Haqimizda",
+      "paragraphs1": "Montis Uzbekistan-sanoatning turli korxonalari uchun ishlab chiqarish uskunalari va ishlab chiqarish liniyalarini import, eksport va kompleks yetkazib berishga ixtisoslashgan xalqaro savdo-injiniring kompaniyasi." ,
+      "paragraphs2": "Biz biznes rahbarlari, investorlar va ishlab chiqarish zavodlari o'rtasida ishonchli vositachi bo'lib, mijozlarning ehtiyojlarini dunyoning yetakchi ishlab chiqaruvchilarining imkoniyatlari bilan bog'laymiz." ,
+      "paragraphs3": "Vazifalarni tahlil qilish va uskunalarni tanlashdan tortib, etkazib berishni tashkil qilish, kalit ishlab chiqarish liniyalarini o'rnatish va ishga tushirishgacha bo'lgan xizmatlarning to'liq spektrini taklif yetamiz. Bizning jamoamiz hamkorlikning har bir bosqichida yuqori darajadagi xizmat, samaradorlik va shaffoflikni ta'minlaydi."
+    },
+    "mission": {
+      "title": "Vazifamiz",
+      "paragraphs1": "Bizning vazifamiz butun dunyodagi kompaniyalarga ishlab chiqarishni rivojlantirish, zamonaviy texnologiyalarni joriy etish va biznes samaradorligini oshirishga yordam berishdir.",
+      "paragraphs2": "Biz nafaqat uskunalarni yetkazib beradigan, balki mijozlarimizning o'sishi va raqobatbardoshligiga hissa qo'shadigan keng qamrovli yechimlarni taklif qiladigan ishonchli sherik bo'lishga intilamiz.",
+      "paragraphs3": "Montis Uzbekistan ishlab chiqaruvchilar va korxonalarni birlashtirib, ishonch, professionallik va o'zaro manfaatlarga asoslangan mustahkam sheriklik aloqalarini yaratmoqda."
+    },
+    "experience": {
+      "title": "Tajriba",
+      "paragraphs1": "Yillar davomida biz alohida ishlab chiqarish korxonalaridan tortib yirik integratsiyalashgan liniyalar va zavod majmualarigacha bo'lgan turli miqyosdagi loyihalarni amalga oshirishda katta tajriba to'pladik.",
+      "paragraphs2": "Bizning jamoamiz Yevropa, Osiyo va boshqa mintaqalardan ishonchli ishlab chiqaruvchilar va uskunalar yetkazib beruvchilar bilan hamkorlik qiladi, bu bizga mijozlarga narx–sifat nisbati bo'yicha maqbul echimlarni taklif qilish imkonini beradi.",
+      "paragraphs3": "Biz oziq-ovqat, qadoqlash, qurilish, kimyo, metallurgiya, qishloq xo'jaligi va boshqa sohalardagi kompaniyalar bilan muvaffaqiyatli ishlaymiz."
+    },
+    "values": {
+      "title": "Qadriyatlar",
+      "list": {
+        "reliability": "Ishonchlilik va ishonch — sheriklar bilan uzoq muddatli munosabatlar halollik, mas'uliyat va shaffoflikka asoslangan.",
+        "professionalism": "Professionallik-biz har bir ishimizda malaka, tajriba va sifatni qadrlaymiz.",
+        "individual": "Shaxsiy yondashuv-har bir vazifa noyobdir va biz mijozning ehtiyojlarini aniq qondiradigan yechimlarni ishlab chiqamiz.",
+        "innovation": "Innovatsiya va rivojlanish — biz doimiy ravishda yangi texnologiyalarni kuzatib boramiz va ishlab chiqarish samaradorligini oshirish uchun zamonaviy yechimlarni amalga oshiramiz.",
+        "partnership": "Hamkorlik va natija-mijozlarimizning muvaffaqiyati - ish sifatining asosiy ko'rsatkichidir."
+      }
+    },
+    "features": {
+      "projects": { "title": "Loyihalar", "text": "Konsepsiyadan ishga tushirishgacha to‘liq jarayon.", "link": "Batafsil" },
+      "equipment": { "title": "Jihozlar", "text": "To‘liq jihozlar va muhandislik tizimlarini yetkazib beramiz.", "link": "Batafsil" },
+      "services": { "title": "Xizmatlar", "text": "Xizmat ko‘rsatish, montaj va ishga tushirish.", "link": "Batafsil" }
+    },
+    "contact": {
+      "title": "Aloqa",
+      "address": "Manzil: Toshkent, Example ko'chasi, 1",
+      "phone_label": "Telefon:",
+      "email_label": "Email:"
+    },
+    "footer": {
+      "rights": "Barcha huquqlar himoyalangan.",
+      "powered": "Sayt kompaniya tomonidan yaratilgan"
+    },
+    "catalog": {
+      "title": "Mahsulot katalogi",
+      "lead": "Jihoz turini tanlang va batafsil ma'lumot oling.",
+      "items": [
+        { "title": "Qishloq xo'jaligi uskunalari", "desc": "Ferma va qishloq xo'jaligi uchun uskunalar." },
+        { "title": "Ishlab chiqarish liniyalari", "desc": "Kichik va oʻrta ishlab chiqarish uchun komplekt liniyalar." },
+        { "title": "Muhandislik tizimlari", "desc": "Suv ta'minoti, isitish va ventilyatsiya tizimlari." }
+      ]
+    },
+    "services": {
+      "title": "Xizmatlar",
+      "lead": "Biz uchta yo'nalishda kompleks yechimlar taklif qilamiz."
+    },
+    "projects": {
+      "lead": "Quyida biz to‘liq tayyor yetkazadigan loyihalar keltirilgan. Tafsilot uchun karta ustiga bosing."
+    },
+    "equipment": {
+      "lead": "Biz yetkazib beradigan va o‘rnatadigan uskunalar va texnologiyalar ro‘yxati."
+    },
+    "services_blocks": {
+      "projects": [
+        "Қишлоқ хўжалиги чорва фермалари — тўлиқ тайёр",
+        "Балиқчилик фермалари — тўлиқ тайёр",
+        "Боғдорчилик ва сабзавотчилик фермалари — тўлиқ тайёр",
+        "Кўчат етиштириш комплекслари — тўлиқ тайёр",
+        "Лойқани қайта ишлаш лойиҳалари — тўлиқ тайёр",
+        "Шифобахш лойларни қайта ишлаш комплекслари — тўлиқ тайёр",
+        "Тўқимачилик ишлаб чиқариш комплекслари — тўлиқ тайёр",
+        "Ўғитлар ва тупроқни яхшилаш маҳсулотлари — тўлиқ тайёр",
+        "Ипакчилик комплекслари — тўлиқ тайёр",
+        "Пишлоқ ишлаб чиқариш — тўлиқ тайёр",
+        "Мева қиёми ва паста ишлаб чиқариш — тўлиқ тайёр",
+        "Печенье ва галет ишлаб чиқариш — тўлиқ тайёр",
+        "Диетик ва табиий маҳсулотлар — тўлиқ тайёр",
+        "Гўштни қайта ишлаш ва колбаса маҳсулотлари — тўлиқ тайёр",
+        "Чорва учун ем ишлаб чиқариш — тўлиқ тайёр",
+        "Газланган ичимликлар линиялари — тўлиқ тайёр",
+        "Шакар заводлари — тўлиқ тайёр",
+        "Қаҳва ва чой ишлаб чиқариш — тўлиқ тайёр",
+        "Макарон ишлаб чиқариш — тўлиқ тайёр",
+        "Озиқ-овқат ёғлари ишлаб чиқариш — тўлиқ тайёр",
+        "Минерал сувларни қуйиш линиялари — тўлиқ тайёр",
+        "Сут заводлари — тўлиқ тайёр",
+        "Ун заводлари — тўлиқ тайёр",
+        "Мева-сабзавот шарбатлари ишлаб чиқариш — тўлиқ тайёр",
+        "Гўшт ва колбаса маҳсулотлари — тўлиқ тайёр",
+        "Металл конструкциялар ва юк кўтаргичлар — тўлиқ тайёр",
+        "Қурилиш учун темирбетон буюмлари — тўлиқ тайёр",
+        "Енгил металл конструкциялар — тўлиқ тайёр",
+        "Саноат биноларини қуриш — тўлиқ тайёр",
+        "Иссиқхона комплекслари — тўлиқ тайёр",
+        "Чиқиндиларни қайта ишлаш ва рециклинг — тўлиқ тайёр",
+        "Ветеринария препаратлари ишлаб чиқариш — тўлиқ тайёр",
+        "Кимё ва фармацевтика маҳсулотлари — тўлиқ тайёр",
+        "Ойна конструкциялари ишлаб чиқариш — тўлиқ тайёр",
+        "Цемент заводлари — тўлиқ тайёр",
+        "Лаборатория комплекслари — тўлиқ тайёр",
+        "Қоғоз ва картон ишлаб чиқариш — тўлиқ тайёр",
+        "Тўқиш ва ип эшиш ишлаб чиқариши — тўлиқ тайёр",
+        "Эластик иплар ва матолар ишлаб чиқариш — тўлиқ тайёр"
+      ],
+      "equipment": [
+        "Маиший сантехника",
+        "Ишлаб чиқариш сантехникаси",
+        "Бино қурилиши учун темир- бетон буюмлар",
+        "Енгил металл конструкциялар",
+        "Автоматлаштириш – тизимлар ва механизмлар",
+        "Сув тозалаш  ускуналар",
+        "Дезинсекция, дезинфекция ва дератизация ускуналар",
+        "Ёнғин хавфсизлиги ускуналари",
+        "Чорвачилик – техника ва ускуналар",
+        "Боғдорчилик ва сабзавотчилик – техника ва ускуналар",
+        "Пайвандлаш ва қотириш – ускуналар ва материаллар",
+        "Қишлоқ хўжалик тизимлари ва ускуналари",
+        "Сунъий сувариш ва ирригация тизимлари",
+        "Омборхона ускуналари ва тизимлари",
+        "Маиший иситиш – ускуналар ва тизимлар",
+        "Совитиш камералари",
+        "Ҳавони тозалаш – тизимлар ва ускуналари",
+        "Иссиқхоналар ва парниклар",
+        "Юк ташиш – ўзини ҳаракатлантирадиган аравачалар (тележкалар)",
+        "Муқовалаш ускуналари",
+        "Сут ва пишлоқ саноати  техника ва ускуналар",
+        "Гўшт ва колбаса саноати – техника ва ускуналар",
+        "Пластмасса – саноат ускуналари",
+        "Чиқиндиларни қайта ишлаш ва рециклинг – техника ва ускуналар",
+        "Юк машиналари, фургонлар ва тижорат транспорт воситалари",
+        "Контейнерлар",
+        "Юк автоприцеплари ва яримприцеплар",
+        "Ветеринария маҳсулотлари техникаси",
+        "Ҳароратни ўлчаш ва бошқариш учун ускуналар ва асбоблар",
+        "Сигнализация ва хавфсизлик – тизимлар ва ускуналари",
+        "Тиббий ва жарроҳлик асбоблари",
+        "Тиббиёт ва жарроҳлик – буюмлар ва сарфланадиган материаллар",
+        "Электрон маълумотларни қайта ишлаш – дастурий таъминот (ДТ)",
+        "Электрон маълумотларни қайта ишлаш – микро- компьютерлар",
+        "Электрон маълумотларни қайта ишлаш – компьютер периферия ускуналари",
+        "Магнитли маълумот ташувчилар ва сақлаш қурилмалари",
+        "Автоматик эшиклар ва дарвозалар, киришни назорат қилиш тизимлари",
+        "Электр таъминоти – тақсимлаш ва узатиш учун ускуналар",
+        "Электр генераторлар",
+        "Қуёш энергияси ускуналари (гелиоэнергетик ускуналар)"
+      ],
+      "services": [
+        "Юкларни ҳаво орқали ташиш (авиаюк ташиш)",
+        "Йирик габаритли юкларни ташиш",
+        "Ҳайвонларни ташиш",
+        "Темир йўл орқали ташиш",
+        "Юкларни тўплаш ва жўнатиш – экспедиторлик хизматлари",
+        "Совиткич (рефрижератор) транспорти орқали ташиш",
+        "Омборхоналар ва божхона омборлари",
+        "Денгиз ва дарё транспорти орқали ташиш",
+        "Ярмаркалар, кўргазмалар ташкил этиш",
+        "Маркетинг тадқиқотлари",
+        "Халқаро ахборот агентликлари",
+        "Мультимедиа – интернет ва интранет хизматлари",
+        "Телефон орқали маркетинг",
+        "Савдо рекламаси",
+        "Деҳқончилик – хизматлар",
+        "Инжиниринг – ишлаб чиқариш пудратчилари",
+        "Патент ва товар белгилари ҳимояси",
+        "Қўриқлаш ва хавфсизлик хизматлари",
+        "Савдо-саноат палаталари",
+        "Қурилиш ва ишлаб чиқариш назорати",
+        "Илмий-тадқиқот марказлари ва лабораториялар",
+        "Энергия ва хомашё – саноат хизмати",
+        "Ҳуқуқий консалтинг",
+        "Ҳужжатлаш ва ахборот марказлари"
+      ]
+    }
+  }
+}
