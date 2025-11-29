@@ -129,7 +129,7 @@
     },
     "contact": {
       "title": "Контакты",
-      "address": "Адрес: г. Ташкент, Улица Буюк Ипак Йули, 2",
+      "address": "Адрес: г. Ташкент, Мирзо Улугбекский район, Улица Буюк Ипак Йули, 2",
       "phone_label": "Телефон:",
       "email_label": "Email:"
     },
@@ -395,7 +395,7 @@
     },
     "contact": {
       "title": "Contact",
-      "address": "Address: Tashkent, Example Street, 1",
+      "address": "Address: 2, st. Buyuk Ipak Yuli, Mirzo Ulugbek district, Tashkent city",
       "phone_label": "Phone:",
       "email_label": "Email:"
     },
@@ -663,7 +663,7 @@
     },
     "contact": {
       "title": "Aloqa",
-      "address": "Manzil: Toshkent, Example ko'chasi, 1",
+      "address": "Manzil: Toshkent shahr, Mirzo Ulug'bek tumani, Buyuk Ipak Yo'li ko'chasi 2-uy",
       "phone_label": "Telefon:",
       "email_label": "Email:"
     },
