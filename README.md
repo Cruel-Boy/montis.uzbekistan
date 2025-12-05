@@ -116,14 +116,14 @@ Main styles are in `css/style.css`. The website uses a dark theme with customiza
 
 ## 📝 License
 
-All rights reserved. © Montis Uzbekistan
+All rights reserved. © SHN-DESIGN
 
 ## 📧 Contact
 
 For more information about Montis Uzbekistan:
 - **Address**: Tashkent, Buyuk Ipak Yuli Street, 2
-- **Phone**: +1 (234) 567-890
-- **Email**: info@example.com
+- **Phone**: +998 (20) 000-10-82
+- **Email**: montisred0gmail.com
 
 ## 🔧 Development Notes
 
@@ -131,3 +131,4 @@ For more information about Montis Uzbekistan:
 - All translations are loaded from `lang/lang.json` via fetch API
 - Smooth page transitions are implemented using CSS and JavaScript
 - Mobile menu uses a drawer/overlay pattern for better UX
+
